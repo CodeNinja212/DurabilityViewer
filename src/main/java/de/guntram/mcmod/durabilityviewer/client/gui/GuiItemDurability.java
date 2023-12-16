@@ -266,6 +266,18 @@ public class GuiItemDurability
                 xposTrinkets=xposTools-trinketsSize.width;
                 ypos=mainWindow.getScaledHeight()-5-totalHeight;
                 break;
+            case MIDDLE_LEFT:
+                xposArmor==5;
+                xposTools=5+armorSize.width;
+                xposTrinkets=5+armorSize.width+trinketsSize.width;
+                ypos=mainWindow.getScaledHeight()-(mainWindow.getScaledHeight()/2)-5-totalHeight;
+                break;
+            case MIDDLE_RIGHT:
+                xposArmor=mainWindow.getScaledWidth()-5-armorSize.width;
+                xposTools=mainWindow.getScaledWidth()-5-armorSize.width-toolsSize.width;
+                xposTrinkets=xposTools-trinketsSize.width;
+                ypos=mainWindow.getScaledHeight()-(mainWindow.getScaledHeight()/2)-5-totalHeight;
+                break;
             default:
                 return;
         }
