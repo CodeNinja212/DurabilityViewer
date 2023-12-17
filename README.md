@@ -1,3 +1,7 @@
+## Help. I don't know how to build with Gradle.
+
+---
+
 # DurabilityViewer
 
 This is another mod that shows your item durabilities as I couldn't find one that had everything I wanted.
